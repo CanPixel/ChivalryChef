@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd4aad445bebcf24eb08dd6ef81878f7, type: 3}
+  m_Name: BattleBoil
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  mapSize: {x: 370, y: 370}
+  MapSize: 370
+  seed: 190629
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2.5658393
+      outSlope: 2.5658393
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.9350962
+    - serializedVersion: 3
+      time: 0.091777615
+      value: 0.24807465
+      inSlope: 2.0894623
+      outSlope: 2.0894623
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.41314545
+    - serializedVersion: 3
+      time: 0.2986326
+      value: 0.32126674
+      inSlope: 0.48496157
+      outSlope: 0.48496157
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.5958738
+      outWeight: 0.13814414
+    - serializedVersion: 3
+      time: 0.40742788
+      value: 0.60346967
+      inSlope: 1.7454033
+      outSlope: 1.7454033
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.6485005
+      value: 0.7844864
+      inSlope: 1.5985696
+      outSlope: 1.5985696
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.7311367
+    - serializedVersion: 3
+      time: 0.7523788
+      value: 0.88234353
+      inSlope: 1.3354232
+      outSlope: 1.3354232
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8992433
+      value: 0.97876763
+      inSlope: 0.49218136
+      outSlope: 0.49218136
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.96364915
+    - serializedVersion: 3
+      time: 1
+      value: 0.97714996
+      inSlope: 0.1471703
+      outSlope: 0.1471703
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  distanceMethod: 0
+  regionCount: 30
+  elevation: 1
+  iterations: 3
+  usingMinkowski: 0
+  heightMultiplier: 40
+  generationType: 3
+  minkowskiP: 1.5
+  usingFalloff: 1
+  falloffMapIntensity: 2.1
+  simplification: 3
+  clampHeights: 0
+  filterMode: 1
+  textureSeed: 111914
+  mapType: 3
+  texturingType: 2
+  bothBlend: 0.05
+  fallOffset: 0.103
+  fallSpread: 0.79
+  brightness: 1.3
+  baseColor:
+    serializedVersion: 2
+    key0: {r: 0.3224012, g: 0.5779565, b: 0.990566, a: 1}
+    key1: {r: 0.88340473, g: 0.9056604, b: 0.51690996, a: 1}
+    key2: {r: 0.44489384, g: 0.9433962, b: 0.40494838, a: 1}
+    key3: {r: 0.4528302, g: 0.37379852, b: 0.37379852, a: 0}
+    key4: {r: 0.88340473, g: 0.9056604, b: 0.51690996, a: 0}
+    key5: {r: 0.44489384, g: 0.9433962, b: 0.40494838, a: 0}
+    key6: {r: 0.18640976, g: 0.6698113, b: 0.22326271, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 11565
+    ctime1: 19853
+    ctime2: 32382
+    ctime3: 42212
+    ctime4: 42405
+    ctime5: 55127
+    ctime6: 65535
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 65535
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 1
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 2
+  flipGradient: 1
+  colorMapBlur: 10
+  masterBlur: 6
+  flatShading: 1
+  transparancyLowest: 1

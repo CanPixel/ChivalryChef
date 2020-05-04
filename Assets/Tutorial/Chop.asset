@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d2e5b933ff00d42ad229093f6026c3, type: 3}
+  m_Name: Chop
+  m_EditorClassIdentifier: Assembly-CSharp::TutorialManager/Tutorial
+  tutorialName: BattleHack
+  topText: click LMB
+  middleText: to
+  bottomText: Quick Chop!
+  icon1: {fileID: 2800000, guid: 702751a4cf972d04b824b02534c1e3f7, type: 3}
+  icon2: {fileID: 2800000, guid: 562c62a1850ffd84e9146b294e45d90c, type: 3}
+  finished: 0

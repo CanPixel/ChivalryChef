@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd4aad445bebcf24eb08dd6ef81878f7, type: 3}
+  m_Name: Island
+  m_EditorClassIdentifier: 
+  mapSize: {x: 100, y: 100}
+  MapSize: 100
+  seed: 204008
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  distanceMethod: 0
+  regionCount: 21
+  elevation: 0.62
+  iterations: 3
+  usingMinkowski: 0
+  heightMultiplier: 12
+  generationType: 3
+  minkowskiP: 1.5
+  usingFalloff: 1
+  falloffMapIntensity: 1.08
+  simplification: 0
+  clampHeights: 0
+  textureSeed: 323
+  mapType: 3
+  texturingType: 2
+  fallOffset: 0
+  fallSpread: 1.71
+  brightness: 1.15
+  baseColor:
+    serializedVersion: 2
+    key0: {r: 0.09451762, g: 0.18673535, b: 0.33962262, a: 1}
+    key1: {r: 0.102432765, g: 0.19904532, b: 0.3589101, a: 1}
+    key2: {r: 0.19904771, g: 0.34930485, b: 0.5943396, a: 1}
+    key3: {r: 0.3224012, g: 0.5779565, b: 0.990566, a: 0}
+    key4: {r: 0.88340473, g: 0.9056604, b: 0.51690996, a: 0}
+    key5: {r: 0.44489384, g: 0.9433962, b: 0.40494838, a: 0}
+    key6: {r: 0.18640976, g: 0.6698113, b: 0.22326271, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 12722
+    ctime1: 22937
+    ctime2: 28720
+    ctime3: 36815
+    ctime4: 42405
+    ctime5: 47031
+    ctime6: 65535
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 65535
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 7
+    m_NumAlphaKeys: 2
+  flipGradient: 0
+  borderBlur: 1
+  masterBlur: 1
+  flatShading: 0
